@@ -1,13 +1,12 @@
 {
-  "name": "5-empezar-proyecto",
+  "name": "proyecto1",
   "version": "1.0.0",
-  "description": "prueba de como empezar un proyecto",
+  "description": "tutorial iniciar nodejs",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "dssss",
-  "license": "ISC",
+  "repository": "https://github.com/vialia22/pruebanode.git",
+  "author": "Adri <abs@dsad.com>",
+  "license": "MIT",
+  "private": false,
   "devDependencies": {
     "nodemon": "^2.0.22"
   }

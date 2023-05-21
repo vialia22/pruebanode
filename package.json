@@ -1,0 +1,14 @@
+{
+  "name": "5-empezar-proyecto",
+  "version": "1.0.0",
+  "description": "prueba de como empezar un proyecto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dssss",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

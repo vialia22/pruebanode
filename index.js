@@ -1,3 +1,5 @@
+require ('dotenv').config();
+
 const http = require("http")  
 const server = http.createServer(requestController)
 
@@ -5,5 +7,8 @@ const server = http.createServer(requestController)
 
 function requestController(){
     console.log("recibimos una nueva request!!");
-} 
-server.listen(4000,() => {console.log("server on port 4000")}); 
+}
+
+const PORT = process.env.PORT; 
+
+server.listen(PORT,() => {console.log("server on port " + PORT)}); 
